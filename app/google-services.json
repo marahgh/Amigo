@@ -1,0 +1,115 @@
+{
+  "project_info": {
+    "project_number": "774799657690",
+    "firebase_url": "https://amigodatabase-38b40.firebaseio.com",
+    "project_id": "amigodatabase-38b40",
+    "storage_bucket": "amigodatabase-38b40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774799657690:android:efead740c5d6631f",
+        "android_client_info": {
+          "package_name": "com.example.amigo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774799657690-ccskl91dcdip01vd9acbr88lk2hfl6d7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.amigo",
+            "certificate_hash": "498945d581451f50e148a780e146702d5f05040e"
+          }
+        },
+        {
+          "client_id": "774799657690-b32irc0c5ti4plleoi5mrl0vpiejnpt9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.amigo",
+            "certificate_hash": "b20c1d0fe018f39a2508924f5f25fdff2eec5474"
+          }
+        },
+        {
+          "client_id": "774799657690-opkorl6n07rrvmdsba9tdr176nrufrmu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.amigo",
+            "certificate_hash": "a0066192ee0fcd25c570771ed3afb37ef78e6e35"
+          }
+        },
+        {
+          "client_id": "774799657690-9n5p7oghm7h8fvp1v4qp9kficn5knqbq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6sMHKmllpI43k-xr-8yCbFI2uOyq_V88"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774799657690-9n5p7oghm7h8fvp1v4qp9kficn5knqbq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774799657690:android:6832f18e83a614f1",
+        "android_client_info": {
+          "package_name": "com.example.marahghoummaid.amigo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774799657690-4iqpornau47ikl1tcvgve0j18vu2msbi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.marahghoummaid.amigo",
+            "certificate_hash": "b20c1d0fe018f39a2508924f5f25fdff2eec5474"
+          }
+        },
+        {
+          "client_id": "774799657690-9n5p7oghm7h8fvp1v4qp9kficn5knqbq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6sMHKmllpI43k-xr-8yCbFI2uOyq_V88"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774799657690-9n5p7oghm7h8fvp1v4qp9kficn5knqbq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

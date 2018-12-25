@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/contact1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/emergencybtn"
+        android:shadowColor="#B3969E"
+        android:shadowDx="-6"
+        android:shadowDy="0"
+        android:onClick="call1"
+        android:textColor="#FFF"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/contact2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/emergencybtn"
+        android:textColor="#FFF"
+        android:textSize="40sp"
+        android:onClick="call2"
+        android:textStyle="bold"
+        android:shadowColor="#B3969E"
+        android:shadowDx="-6"
+        android:shadowDy="0"
+        />
+
+    <Button
+        android:id="@+id/contact3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/emergencybtn"
+        android:textColor="#FFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:onClick="call3"
+        android:shadowColor="#B3969E"
+        android:shadowDx="-6"
+        android:shadowDy="0"
+        />
+
+    <ImageView
+        android:layout_width="336dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/small" />
+
+</LinearLayout>

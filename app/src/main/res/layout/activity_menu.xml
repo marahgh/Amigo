@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="@color/background_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <LinearLayout
+        android:clipToPadding="false"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_margin="10dp"
+            android:id="@+id/med"
+            android:layout_weight="1"
+            android:onClick="MedFunction"
+            android:layout_width="0dp"
+            android:layout_height="160dp">
+
+            <LinearLayout
+
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:padding="10dp"
+                    android:src="@drawable/med"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@color/material_deep_purple"
+                    />
+
+                <View
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/material_deep_purple"
+                    android:padding="10dp"
+                    />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:text="Medicine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_margin="10dp"
+            android:id="@+id/emergency"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:onClick="EmergencyFunc"
+            android:layout_height="160dp">
+
+            <LinearLayout
+
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:padding="10dp"
+                    android:src="@drawable/emergencycall"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@color/material_pink"
+                    />
+
+                <View
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/material_pink"
+                    android:padding="10dp"
+                    />
+
+                <TextView
+                    android:textSize="25sp"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:text="Emergency"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:clipToPadding="false"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_margin="10dp"
+            android:id="@+id/events"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:onClick="EventsFunc"
+            android:layout_height="160dp">
+
+            <LinearLayout
+
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:padding="10dp"
+                    android:src="@drawable/events"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@color/material_green"
+                    />
+
+                <View
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/material_green"
+                    android:padding="10dp"
+                    />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:text="Events"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_margin="10dp"
+            android:id="@+id/contacts"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:onClick="contactsFunc"
+            android:layout_height="160dp">
+
+            <LinearLayout
+
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:padding="10dp"
+                    android:src="@drawable/call"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@color/material_blue"
+                    />
+
+                <View
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/material_blue"
+                    android:padding="10dp"
+                    />
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:text="Contacts"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_gravity="end"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:onClick="UserExit"
+        android:padding="10dp"
+        android:src="@drawable/ic_exit_to_app_black_24dp" />
+
+
+</LinearLayout>

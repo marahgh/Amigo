@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/section_label"
+ >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="9dp"
+        android:text="Event Type:"
+        android:textColor="#006DC7"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <Spinner
+        android:layout_width="144dp"
+        android:layout_height="18dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="232dp"
+        android:layout_marginRight="232dp"
+        android:layout_marginBottom="268dp"></Spinner>
+
+
+    <Button
+        android:id="@+id/dateButton"
+        android:layout_width="160dp"
+        android:layout_height="55dp"
+        android:layout_alignStart="@+id/timeButton"
+        android:layout_alignLeft="@+id/timeButton"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="50dp"
+        android:background="#698FC1"
+        android:onClick="showDatePickerDialog"
+        android:text="Pick A Date:"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+
+        android:layout_alignBaseline="@+id/dateButton"
+        android:layout_centerHorizontal="true"
+        android:hint="Date"
+        android:textAlignment="center"
+        android:textColor="#006DC7"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:ignore="UnknownId" />
+
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+
+
+        android:layout_alignBaseline="@+id/timeButton"
+        android:layout_centerHorizontal="true"
+        android:hint="Time"
+        android:textAlignment="center"
+        android:textColor="#006DC7"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/timeButton"
+        android:layout_width="160dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginLeft="46dp"
+        android:background="#698FC1"
+        android:onClick="showTimePickerDialog"
+        android:text="Pick A Time:"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="155dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:background="#698FC1"
+        android:onClick="inviteFriends"
+        android:text="Invite Friends"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="207dp"
+        android:layout_marginRight="207dp"
+        android:layout_marginBottom="58dp"
+        android:background="#698FC1"
+        android:text="Create"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"></Button>
+
+    </RelativeLayout>

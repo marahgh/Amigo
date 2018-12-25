@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/contact1"
+        android:layout_width="238dp"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="94dp"
+        android:background="@drawable/emergencybtn"
+        android:onClick="call1"
+        android:shadowColor="#B3969E"
+        android:shadowDx="-6"
+        android:shadowDy="0"
+        android:textColor="#FFF"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/contact2"
+        android:layout_width="238dp"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="193dp"
+        android:layout_marginLeft="193dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="193dp"
+        android:background="@drawable/emergencybtn"
+        android:onClick="call2"
+        android:shadowColor="#B3969E"
+        android:shadowDx="-6"
+        android:shadowDy="0"
+        android:textColor="#FFF"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/contact3"
+        android:layout_width="238dp"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="352dp"
+        android:layout_marginLeft="352dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="89dp"
+        android:background="@drawable/emergencybtn"
+        android:onClick="call3"
+        android:shadowColor="#B3969E"
+        android:shadowDx="-6"
+        android:shadowDy="0"
+        android:textColor="#FFF"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="290dp"
+        android:layout_height="79dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="157dp"
+        android:layout_marginLeft="157dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="11dp"
+        android:src="@drawable/small" />
+
+</RelativeLayout>

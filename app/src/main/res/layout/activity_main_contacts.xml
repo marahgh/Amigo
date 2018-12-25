@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/Wife"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:background="#1FCC0C"
+        android:text="Wife"
+        android:textColor="#000"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:shadowColor="#B3969E"
+        android:shadowDx="-6"
+        android:shadowDy="0" />
+
+    <Button
+        android:id="@+id/best_friend"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:background="#FFFF00"
+        android:text="Son"
+        android:textColor="#000"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:shadowColor="#B3969E"
+        android:shadowDx="-6"
+        android:shadowDy="0"
+        />
+
+    <Button
+        android:id="@+id/Son"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:background="#0FBFFF"
+        android:text="Friend"
+        android:textColor="#000"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:shadowColor="#B3969E"
+        android:shadowDx="-6"
+        android:shadowDy="0"
+        />
+
+
+</LinearLayout>

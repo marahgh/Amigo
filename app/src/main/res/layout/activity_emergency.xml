@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Emergency">
+
+
+    <Button
+        android:id="@+id/ambulance"
+        android:textStyle="bold"
+        android:layout_width="327dp"
+        android:layout_height="100dp"
+        android:background="@drawable/emergencybtn"
+        android:shadowColor="#B3969E"
+        android:shadowDx="-6"
+        android:shadowDy="0"
+        android:text="Ambulance"
+        android:onClick="callAmbulance"
+        android:textColor="#FFF"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.472" />
+
+
+    <Button
+        android:id="@+id/police"
+        android:textStyle="bold"
+        android:layout_width="327dp"
+        android:layout_height="100dp"
+        android:background="@drawable/emergencybtn"
+        android:shadowColor="#B3969E"
+        android:shadowDx="-6"
+        android:shadowDy="0"
+        android:text="police"
+        android:textColor="#FFF"
+        android:onClick="callPolice"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.126" />
+
+    <Button
+        android:id="@+id/rescue_btn"
+
+        android:layout_width="327dp"
+        android:layout_height="100dp"
+        android:background="@drawable/emergencybtn"
+        android:text="Fire and Rescue"
+        android:onClick="callFire"
+        android:textColor="#FFF"
+        android:textSize="35sp"
+        android:shadowColor="#B3969E"
+        android:shadowDx="-6"
+        android:shadowDy="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.832" />
+
+</android.support.constraint.ConstraintLayout>

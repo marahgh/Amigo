@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    >
+
+
+    <ImageView
+        android:layout_width="274dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="194dp"
+        android:layout_marginRight="194dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/small" />
+
+        <!-- Email Label -->
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/password"
+        android:layout_marginLeft="21dp"
+        android:hint="User Name"
+        android:inputType="textEmailAddress" />
+
+
+        <!-- Password Label -->
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/logIn_btn"
+        android:layout_marginLeft="21dp"
+        android:layout_marginBottom="78dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+
+    <Button
+        android:id="@+id/logIn_btn"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/amigo_button"
+        android:onClick="logInFunc"
+        android:shadowColor="#3645A8"
+        android:shadowDx="10"
+        android:shadowDy="1"
+        android:shadowRadius="25"
+        android:text="Login"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/link_signup"
+        android:layout_width="185dp"
+        android:layout_height="51dp"
+        android:layout_above="@+id/password"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="57dp"
+        android:layout_marginRight="57dp"
+        android:layout_marginBottom="-72dp"
+        android:gravity="center"
+        android:text="No account yet?"
+        android:textSize="16dip" />
+
+
+    <Button
+        android:id="@+id/SignUp_btn"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/amigo_button"
+        android:onClick="SignUpFunc"
+        android:shadowColor="#3645A8"
+        android:shadowDx="10"
+        android:shadowDy="1"
+        android:shadowRadius="25"
+        android:text="Sign UP"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+</RelativeLayout>

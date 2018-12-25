@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingTop="56dp"
+        android:paddingRight="24dp">
+
+        <ImageView
+            android:layout_width="336dp"
+            android:layout_height="83dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/small" />
+
+        <!-- Email Label -->
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User Name"
+            android:inputType="textEmailAddress" />
+
+
+        <!-- Password Label -->
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+
+        <Button
+            android:id="@+id/logIn_btn"
+            android:text="Login"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:background="@drawable/amigo_button"
+            android:shadowColor="#3645A8"
+            android:shadowDx="10"
+            android:shadowDy="1"
+            android:onClick="logInFunc"
+            android:shadowRadius="25"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:id="@+id/link_signup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:text="No account yet?"
+            android:textSize="16dip" />
+
+
+        <Button
+            android:id="@+id/SignUp_btn"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/amigo_button"
+            android:onClick="SignUpFunc"
+            android:shadowColor="#3645A8"
+            android:shadowDx="10"
+            android:shadowDy="1"
+            android:shadowRadius="25"
+            android:text="Sign UP"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
